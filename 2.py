@@ -3,4 +3,5 @@ if type(x)== int :
   print("this val is int")
 if type(x)== str:
   print("this val is str")
-if   
+if type(x)== float:
+  print("this val is float")

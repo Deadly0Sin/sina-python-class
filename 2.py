@@ -1,7 +1,5 @@
-x = "3"
-if type(x)== int :
-  print("this val is int")
-if type(x)== str:
-  print("this val is str")
-if type(x)== float:
-  print("this val is float")
+num = int(input("inter number: "))
+if(num % 2) == 0:
+    print("the {0} is Even".format(num))
+else:
+    print("the {0} is odd".format(num))    
